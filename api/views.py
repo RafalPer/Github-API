@@ -74,7 +74,7 @@ def testcall(request):
     Authorization': f'Bearer {social.extra_data["access_token"]}',
     }
     headers = {
-        'Authorization': 'Bearer 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',
+        'Authorization': '',
     }
     response = requests.request("GET", 'https://api.github.com/repos/RafalPer/books', headers=headers, data=payload)
     return HttpResponse(response)
