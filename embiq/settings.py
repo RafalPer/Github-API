@@ -87,9 +87,9 @@ WSGI_APPLICATION = "embiq.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "abc",
-        "USER": "postgres",
-        "PASSWORD": "postgres",
+        "NAME": "",
+        "USER": "",
+        "PASSWORD": "",
         "HOST": "localhost",
     }
 }

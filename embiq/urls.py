@@ -23,8 +23,8 @@ router.register(r"detail_info", views.DetailInfoViewSet, basename="detail_info")
 router.register(r"basic_info", views.BasicInfoViewSet, basename="basic_info")
 urlpatterns = [
     path("admin/", admin.site.urls),
-    #path("oauth/", include("social_django.urls", namespace="social")),
-    #path("", views.home, name="home"),
+    # path("oauth/", include("social_django.urls", namespace="social")),
+    # path("", views.home, name="home"),
     path("auth/", include("authentication.urls")),
     # path('test/', views.testcall),
     path("api/", include(router.urls)),
